@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import NavBar from './NavBar';
 import Home from './Home';
 import About from './About';
 import Portfolio from './Portfolio';
@@ -8,7 +9,7 @@ const App = () => {
   return (
 
     <div className='main'>
-      <h1>In APP</h1>
+      <NavBar />
       <Home />
       <About />
       <Portfolio />
