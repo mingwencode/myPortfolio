@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const About = () => {
   return (
-    <div className='single-page'>
+    <div className='single-page' id='about'>
       <div className='about-page'>
         <h1>About</h1>
         <p>Hi, I am Ming, a Software Engineer / Graphic Designer / Business Consultant. You probably wonder why this person worked in so many different roles? The truth is, they are all connected, their works are representing different forms of arts.
