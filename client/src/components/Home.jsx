@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className='single-page' id='home'>
       <div className='home-page'>
-        <Typist>
+        <Typist cursor={{ hideWhenDone: true }}>
           <span>Hello, I am Ming Wen</span>
           <br />
           <span>I am a cod<Typist.Delay ms={500} />er
