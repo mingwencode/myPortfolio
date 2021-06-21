@@ -9,6 +9,7 @@ const Portfolio = () => {
         <img src={'../images/sdc_display_sm.jpg'} width='300' />
         <img src={'../images/smove_display_sm.jpg'} width='300' />
         <img src={'../images/handy_display_sm.jpg'} width='300' />
+        <img src={'../images/shooter_display_sm.jpg'} width='300' />
       </div>
     </div>
 
