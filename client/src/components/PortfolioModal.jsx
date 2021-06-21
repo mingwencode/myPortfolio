@@ -20,8 +20,8 @@ const PortfolioModal = ({currentProject}) => {
                 src={item.pic}
               />
               <Carousel.Caption className='caption'>
-                <h3>{item.name}</h3>
-                <p className='card-info'>{item.info}</p>
+                <p>{item.name}</p>
+                {/* <p className='card-info'>{item.info}</p> */}
               </Carousel.Caption>
            </div>
 
