@@ -1,38 +1,12 @@
 import React, { useState, useEffect } from 'react';
 //import Modal from './Modal.jsx'
 import PortfolioModal from './PortfolioModal.jsx';
+import projects from '../data/portfolioData.js';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 
-const projects = [
-  {
-    name: 'Triceratops Republic',
-    disPic: '../images/FEC_display.jpeg'
-  },
-  {
-    name: 'Project Catwalk System Design',
-    disPic: '../images/sdc_display_sm.jpg'
-  },
-  {
-    name: 'sMove',
-    disPic: '../images/smove_display_sm.jpg'
-  },
-  {
-    name: 'handyHelpers',
-    disPic: '../images/handy_display_sm.jpg'
-  },
-  {
-    name: 'Virus Shooter',
-    disPic: '../images/shooter_display_sm.jpg'
-  }
-]
-
 const Portfolio = () => {
 
-  // const showModal = (e, job) => {
-  //   setModal(true);
-  //   setCurrentProject(pic)
-  // }
 
   const [show, setShow] = useState(false);
   const [currentProject, setCurrentProject] = useState({});
