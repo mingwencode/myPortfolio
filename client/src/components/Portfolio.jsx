@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import Modal from './Modal.jsx'
+//import Modal from './Modal.jsx'
+import PortfolioModal from './PortfolioModal.jsx';
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
 
-const displayPics = [
+const projects = [
   {
     name: 'Triceratops Republic',
     disPic: '../images/FEC_display.jpeg'
@@ -26,18 +29,46 @@ const displayPics = [
 
 const Portfolio = () => {
 
-  const showModal = (e, job) => {
-    setModal(true);
-    setCurrentProject(pic)
+  // const showModal = (e, job) => {
+  //   setModal(true);
+  //   setCurrentProject(pic)
+  // }
+
+  const [show, setShow] = useState(false);
+  const [currentProject, setCurrentProject] = useState({});
+
+  const handleClose = () => setShow(false);
+  const handleShow = (e, project) => {
+    setCurrentProject(project)
+    setShow(true);
   }
 
   return (
     <div className='single-page' id='portfolio'>
       <div className='portfolio-page'>
         <h1>Portfolio</h1>
-        {displayPics.map((pic,index) => {
-          return <img src={pic.disPic} key={index} onClick={e => showModal(e, pic)} width='300' />
+        {projects.map((project,index) => {
+          return <img src={project.disPic} key={index} variant='primary' onClick={(e) => handleShow(e, project)} width='300' />
         })}
+        <Modal
+        show={show}
+        onHide={handleClose}
+        backdrop="static"
+        keyboard={false}
+        >
+          <Modal.Header closeButton>
+            <Modal.Title>{currentProject.name}</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <PortfolioModal />
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="secondary" onClick={handleClose}>
+              Close
+            </Button>
+            <Button variant="primary">Understood</Button>
+          </Modal.Footer>
+        </Modal>
       </div>
     </div>
 
