@@ -29,12 +29,18 @@ const Portfolio = () => {
         onHide={handleClose}
         backdrop="static"
         keyboard={false}
+        size="xl"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
         >
           <Modal.Header closeButton>
             <Modal.Title>{currentProject.name}</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <PortfolioModal />
+            <p>{currentProject.description}</p>
+          </Modal.Body>
+          <Modal.Body>
+            <PortfolioModal currentProject={currentProject}/>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>

@@ -14,6 +14,11 @@ body {
   color:black;
 }
 
+/* .main {
+  width: 75%;
+  margin: auto;
+} */
+
 /* single page */
 .single-page {
   height: 100vh;
@@ -49,4 +54,26 @@ body {
   position: relative;
   padding: 5px 50px;
   cursor: pointer;
+}
+
+/*homepage*/
+.home-page span {
+  font-size: 4vw;
+}
+
+/*about-page*/
+.page-title {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  font-size: 10em;
+}
+
+.card-container {
+
+  height: 700px;
+}
+
+.caption {
+  background-color: rgba(0,0,0,0.5);
 }
