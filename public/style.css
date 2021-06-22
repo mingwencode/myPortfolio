@@ -61,6 +61,29 @@ body {
   font-size: 4vw;
 }
 
+.btnHome {
+  box-sizing: inherit;
+  font-family: 'Raleway', serif;
+  font-weight: 400;
+  font-size: 16pt;
+  color:yellow;
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 11px 19px;
+  display: inline;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnHome:hover {
+  background-color: #e72e41;
+  border: none;
+  border: 2px solid #e72e41;
+}
+
+.btnHome:focus {
+  outline: none;
+}
+
 /*about-page*/
 .page-title {
   display: flex;
