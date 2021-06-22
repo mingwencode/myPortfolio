@@ -31,25 +31,6 @@ const projects = [
     }]
   },
   {
-    name: 'Project Catwalk System Design',
-    description: 'The project is a back-end design for a front-end legacy codebase for an e-commerce we application focused on clothing and apparel. ',
-    disPic: '../images/sdc/sdc_display_sm.jpg',
-    slides:[
-      {
-        name:'Database Schema Design',
-        pic: '../images/sdc/schema.png'
-      },
-      {
-        name:'Loader.io Test for Questions API',
-        pic: '../images/sdc/question.jpeg'
-      },
-      {
-        name:'Loader.io Test for Answers API',
-        pic: '../images/sdc/answer.jpeg'
-      },
-    ]
-  },
-  {
     name: 'Smove',
     description: 'Smove is a one-stop-platform for users to manage their move with ease! The application integrates all the pieces of moving including finding vendors, tracking tasks and inventory, and collaborating with family & friends.',
     disPic: '../images/smove/smove_display_sm.jpg',
@@ -81,6 +62,26 @@ const projects = [
     ]
   },
   {
+    name: 'Project Catwalk System Design',
+    description: 'The project is a back-end design for a front-end legacy codebase for an e-commerce we application focused on clothing and apparel. ',
+    disPic: '../images/sdc/sdc_display_sm.jpg',
+    slides:[
+      {
+        name:'Database Schema Design',
+        pic: '../images/sdc/schema.png'
+      },
+      {
+        name:'Loader.io Test for Questions API',
+        pic: '../images/sdc/question.jpeg'
+      },
+      {
+        name:'Loader.io Test for Answers API',
+        pic: '../images/sdc/answer.jpeg'
+      },
+    ]
+  },
+
+  {
     name: 'handyHelpers',
     description: 'A web application that allows users to ask for help within the local community. Users can post/accpet/track jobs',
     disPic: '../images/handy/handy_display_sm.jpg',
@@ -100,9 +101,23 @@ const projects = [
     ]
   },
   {
-    name: 'Virus Shooter',
-    disPic: '../images/shooter/shooter_display_sm.jpg'
-  }
+    name: 'Virus Invasion',
+    description: 'In Virus Invasion, the player controls a doctor to shoot bullet to destroy all the virus.',
+    disPic: '../images/shooter/shooter_display_sm.jpg',
+    slides:[
+      {
+        name:'Game Play',
+        pic: '../images/shooter/virus.gif'
+      },
+      {
+        name:'Starting the game',
+        pic: '../images/shooter/start.png'
+      },
+      {
+        name:'Game Over',
+        pic: '../images/shooter/end.png'
+      }]
+    }
 ]
 
 export default projects;
