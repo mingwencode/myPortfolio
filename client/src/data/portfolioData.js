@@ -32,11 +32,46 @@ const projects = [
   },
   {
     name: 'Project Catwalk System Design',
-    disPic: '../images/sdc/sdc_display_sm.jpg'
+    description: 'Triceratop Republic is a single-page e-commerce HTML5 web application designed to showcase clothing products.',
+    disPic: '../images/sdc/sdc_display_sm.jpg',
+    slides:[
+      {
+        name:'Sign In with Google',
+        info:'The page contains for sections: Overview, Related Product/Your Outfit, Q & A, Ratings & Reviews.',
+        pic: '../images/fec/fullpage.gif'
+      }]
   },
   {
     name: 'sMove',
-    disPic: '../images/smove/smove_display_sm.jpg'
+    description: 'Smove is a one-stop-platform for users to manage their move with ease! The application integrates all the pieces of moving including finding vendors, tracking tasks and inventory, and collaborating with family & friends.',
+    disPic: '../images/smove/smove_display_sm.jpg',
+    slides:[
+      {
+        name:'Sign In with Google',
+        pic: '../images/smove/login.png'
+      },
+      {
+        name:'Profile Pageprofile',
+        pic: '../images/smove/profile.png'
+      },
+      {
+        name:'Task List',
+        pic: '../images/smove/task.png'
+      },
+      {
+        name:'Google Calendar',
+        pic: '../images/smove/calendar.png'
+      },
+      {
+        name:'Inventoryinven',
+        pic: '../images/smove/inven.png'
+      },
+      {
+        name:'Local Moving Services',
+        pic: '../images/smove/map.png'
+      }
+
+    ]
   },
   {
     name: 'handyHelpers',
