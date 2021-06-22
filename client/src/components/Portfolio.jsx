@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-//import Modal from './Modal.jsx'
 import PortfolioModal from './PortfolioModal.jsx';
 import projects from '../data/portfolioData.js';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
+import Flip from 'react-reveal/Flip';
 
 const Portfolio = () => {
 
@@ -21,9 +21,18 @@ const Portfolio = () => {
     <div className='single-page' id='portfolio'>
       <div className='portfolio-page'>
         <h1>Portfolio</h1>
-        {projects.map((project,index) => {
-          return <img src={project.disPic} key={index} variant='primary' onClick={(e) => handleShow(e, project)} width='300' />
-        })}
+          {projects.map((project,index) => {
+            return <Flip>
+              <div className='project-card'>
+                <img className='project-display-pic' src={project.disPic} key={index}/>
+                <div className='overlay'>
+                  <div>{project.name}</div>
+                  <div>{project.tech}</div>
+                  <button variant='primary' onClick={(e) => handleShow(e, project)} >LEARN MORE</button>
+                </div>
+              </div>
+            </Flip>
+          })}
         <Modal
         show={show}
         onHide={handleClose}

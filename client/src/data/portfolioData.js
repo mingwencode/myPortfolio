@@ -3,6 +3,7 @@ const projects = [
     name: 'Triceratops Republic',
     description: 'Triceratop Republic is a single-page e-commerce HTML5 web application designed to showcase clothing products.',
     disPic: '../images/fec/FEC_display.jpeg',
+    tech:'JavaScript/Node/React',
     slides:[
       {
         name:'Full Page',
