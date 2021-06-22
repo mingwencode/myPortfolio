@@ -32,17 +32,25 @@ const projects = [
   },
   {
     name: 'Project Catwalk System Design',
-    description: 'Triceratop Republic is a single-page e-commerce HTML5 web application designed to showcase clothing products.',
+    description: 'The project is a back-end design for a front-end legacy codebase for an e-commerce we application focused on clothing and apparel. ',
     disPic: '../images/sdc/sdc_display_sm.jpg',
     slides:[
       {
-        name:'Sign In with Google',
-        info:'The page contains for sections: Overview, Related Product/Your Outfit, Q & A, Ratings & Reviews.',
-        pic: '../images/fec/fullpage.gif'
-      }]
+        name:'Database Schema Design',
+        pic: '../images/sdc/schema.png'
+      },
+      {
+        name:'Loader.io Test for Questions API',
+        pic: '../images/sdc/question.jpeg'
+      },
+      {
+        name:'Loader.io Test for Answers API',
+        pic: '../images/sdc/answer.jpeg'
+      },
+    ]
   },
   {
-    name: 'sMove',
+    name: 'Smove',
     description: 'Smove is a one-stop-platform for users to manage their move with ease! The application integrates all the pieces of moving including finding vendors, tracking tasks and inventory, and collaborating with family & friends.',
     disPic: '../images/smove/smove_display_sm.jpg',
     slides:[
@@ -70,12 +78,26 @@ const projects = [
         name:'Local Moving Services',
         pic: '../images/smove/map.png'
       }
-
     ]
   },
   {
     name: 'handyHelpers',
-    disPic: '../images/handy/handy_display_sm.jpg'
+    description: 'A web application that allows users to ask for help within the local community. Users can post/accpet/track jobs',
+    disPic: '../images/handy/handy_display_sm.jpg',
+    slides:[
+      {
+        name:'Login Page',
+        pic: '../images/handy/login.png'
+      },
+      {
+        name:'Main Page - User Profile / Request / Listing / Map',
+        pic: '../images/handy/profile.png'
+      },
+      {
+        name:'Check Job Status',
+        pic: '../images/handy/jobStatus.png'
+      }
+    ]
   },
   {
     name: 'Virus Shooter',

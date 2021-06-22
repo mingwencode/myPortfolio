@@ -15,8 +15,8 @@ const Home = () => {
         <Typist cursor={{ hideWhenDone: true, hideWhenDoneDelay: 0, }}>
           <span>Hello, I am Ming Wen</span>
           <br />
-          <span>I am a cod<Typist.Delay ms={500} />er
-          <Typist.Backspace count={5} delay={1000} />
+          <span>I am a Design<Typist.Delay ms={500} />er
+          <Typist.Backspace count={8} delay={1000} />
           <Typist.Delay ms={750} />
           Software Engineer
           </span>
