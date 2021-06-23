@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
-body {
-  font-family:'Montserrat',sans-serif;
+#app {
+  font-family:'Roboto',sans-serif;
   color:black;
 }
 
@@ -36,18 +35,25 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #111;
+  background-color: #C06014;
   color: white;
   font-size: 25px;
   z-index: 2;
+}
 
+a.active {
+  color: black;
+}
 
+.nav-bar a:hover {
+  color:black;
 }
 
 .nav-bar {
   position: relative;
   display: flex;
   list-style: none;
+  margin-top: 10px;
 }
 
 .nav-bar li {
@@ -57,6 +63,10 @@ body {
 }
 
 /*homepage*/
+.home-page {
+  font-family: 'Lato',sans-serif;
+  font-weight: 700;
+}
 .home-page span {
   font-size: 4vw;
 }
@@ -94,7 +104,9 @@ body {
 
 /*portfolio*/
 
-
+#portfolio {
+  background-color: #EDDBCD;
+}
 .project-card {
   /* max-height: 300px; */
   width: 300px;
