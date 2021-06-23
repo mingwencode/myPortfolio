@@ -15,7 +15,7 @@ const Intro = styled.div`
 const IntroContainer = styled.div`
   width: 50%;
   margin: auto;
-  padding-top: 20%;
+  padding-top: 17%;
 `;
 
 const Home = () => {

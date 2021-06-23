@@ -80,7 +80,7 @@ a.active {
   font-size: 16pt;
   color:#C06014;
   background-color: transparent;
-  border: 2px solid black;
+  border: 3px solid black;
   padding: 11px 19px;
   display: inline;
   transition: all 0.3s ease-in-out;
@@ -113,6 +113,12 @@ a.active {
   background-color: #EDDBCD;
   clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
 }
+
+.project-container {
+  display: flex;
+  justify-content: center;
+}
+
 .project-card {
   /* max-height: 300px; */
   width: 300px;
@@ -133,7 +139,7 @@ a.active {
 
 .project-card:hover .overlay {
   opacity: 1;
-  background-color: #FFE7E9;
+  background-color: #C06014;
 }
 
 .overlay {

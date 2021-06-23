@@ -30,18 +30,20 @@ const Portfolio = () => {
           </Col>
         </Row>
         <Row>
-          <ScrollAnimation animateIn='bounceInLeft'>
-            {projects.map((project,index) => {
-              return <div className='project-card'>
-                  <img className='project-display-pic' src={project.disPic} key={index}/>
-                  <div className='overlay'>
-                    <div>{project.name}</div>
-                    <div>{project.tech}</div>
-                    <button variant='primary' onClick={(e) => handleShow(e, project)} >LEARN MORE</button>
+          <Col className='project-container'>
+            <ScrollAnimation animateIn='bounceInLeft'>
+              {projects.map((project,index) => {
+                return <div className='project-card'>
+                    <img className='project-display-pic' src={project.disPic} key={index}/>
+                    <div className='overlay'>
+                      <div>{project.name}</div>
+                      <div>{project.tech}</div>
+                      <button variant='primary' onClick={(e) => handleShow(e, project)} >LEARN MORE</button>
+                    </div>
                   </div>
-                </div>
-            })}
-          </ScrollAnimation>
+              })}
+            </ScrollAnimation>
+          </Col>
         </Row>
 
         <Modal
