@@ -7,16 +7,13 @@ import Contact from './Contact';
 
 const App = () => {
   return (
-    <>
+    <div className='main'>
       <NavBar />
-      <div className='main'>
-        <Home />
-        <About />
-        <Portfolio />
-        <Contact/>
-      </div>
-    </>
-
+      <Home />
+      <About />
+      <Portfolio />
+      <Contact/>
+    </div>
   )
 }
 export default App;

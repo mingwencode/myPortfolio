@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 const About = () => {
   return (
     <div className='single-page' id='about'>
-      <Container className='about-page'>
+      <Container>
         <Row>
           <Col className='page-title'>About</Col>
         </Row>
