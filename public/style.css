@@ -73,10 +73,10 @@ a.active {
 
 .btnHome {
   box-sizing: inherit;
-  font-family: 'Raleway', serif;
+  font-family: 'Roboto', serif;
   font-weight: 400;
   font-size: 16pt;
-  color:yellow;
+  color:#C06014;
   background-color: transparent;
   border: 2px solid black;
   padding: 11px 19px;
@@ -85,9 +85,10 @@ a.active {
 }
 
 .btnHome:hover {
-  background-color: #e72e41;
+  background-color: #C06014;
   border: none;
-  border: 2px solid #e72e41;
+  border: 2px solid #C06014;
+  color: white;
 }
 
 .btnHome:focus {
@@ -106,6 +107,7 @@ a.active {
 
 #portfolio {
   background-color: #EDDBCD;
+  clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
 }
 .project-card {
   /* max-height: 300px; */
