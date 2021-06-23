@@ -12,6 +12,12 @@ const Intro = styled.div`
   padding-bottom: 20px;
 `;
 
+const IntroContainer = styled.div`
+  width: 50%;
+  margin: auto;
+  padding-top: 20%;
+`;
+
 const Home = () => {
 
   const [showButton, setShowButton] = useState(false)
@@ -25,20 +31,23 @@ const Home = () => {
 
   return (
     <div className='single-page' id='home'>
-      <Intro>
-        <Typist cursor={{ hideWhenDone: true, hideWhenDoneDelay: 0, }} onTypingDone={() => buttonState()}>
-          <span>Hello, I am </span>
-          <NameDisplay>Ming Wen</NameDisplay>
-          <br />
-          <span>I am a Designer<Typist.Delay ms={500} />
-          <Typist.Backspace count={8} delay={500} />
-          <Typist.Delay ms={300} />
-          Software Engineer
-          <Typist.Delay ms={200} />
-          </span>
-        </Typist>
-      </Intro>
-      {showButton ? <Link activeClass='active' to='portfolio' spy={true} smooth={true} duration={250} offset={1}><Flip left><button className='btnHome'>View my work</button></Flip></Link> : null}
+      <IntroContainer>
+        <Intro>
+          <Typist cursor={{ hideWhenDone: true, hideWhenDoneDelay: 0, }} onTypingDone={() => buttonState()}>
+            <span>Hello, I am </span>
+            <NameDisplay>Ming Wen</NameDisplay>
+            <br />
+            <span>I am a Designer<Typist.Delay ms={500} />
+            <Typist.Backspace count={8} delay={500} />
+            <Typist.Delay ms={300} />
+            Software Engineer
+            <Typist.Delay ms={200} />
+            </span>
+          </Typist>
+        </Intro>
+        {showButton ? <Link activeClass='active' to='portfolio' spy={true} smooth={true} duration={250} offset={1}><Flip left><button className='btnHome'>View my work</button></Flip></Link> : null}
+      </IntroContainer>
+
     </div>
   )
 }

@@ -23,10 +23,10 @@ const Portfolio = () => {
 
   return (
     <div className='single-page' id='portfolio'>
-      <Container fluid>
+      <Container fluid className='content-container'>
         <Row>
           <Col className='page-title'>
-              <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>Portfolio</ScrollAnimation>
+              <ScrollAnimation animateIn='bounceInRight'>Portfolio</ScrollAnimation>
           </Col>
         </Row>
         <Row>
