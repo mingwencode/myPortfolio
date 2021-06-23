@@ -3,7 +3,11 @@ import PortfolioModal from './PortfolioModal.jsx';
 import projects from '../data/portfolioData.js';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
-import Flip from 'react-reveal/Flip';
+import Fade from 'react-reveal/Fade';
+import ScrollAnimation from 'react-animate-on-scroll';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 const Portfolio = () => {
 
@@ -19,20 +23,27 @@ const Portfolio = () => {
 
   return (
     <div className='single-page' id='portfolio'>
-      <div className='portfolio-page'>
-        <h1>Portfolio</h1>
-          {projects.map((project,index) => {
-            return <Flip>
-              <div className='project-card'>
-                <img className='project-display-pic' src={project.disPic} key={index}/>
-                <div className='overlay'>
-                  <div>{project.name}</div>
-                  <div>{project.tech}</div>
-                  <button variant='primary' onClick={(e) => handleShow(e, project)} >LEARN MORE</button>
+      <Container className='portfolio-page' fluid>
+        <Row>
+          <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
+            <Col className='page-title'>Portfolio</Col>
+          </ScrollAnimation>
+        </Row>
+        <Row>
+          <ScrollAnimation animateIn='bounceInLeft'>
+            {projects.map((project,index) => {
+              return <div className='project-card'>
+                  <img className='project-display-pic' src={project.disPic} key={index}/>
+                  <div className='overlay'>
+                    <div>{project.name}</div>
+                    <div>{project.tech}</div>
+                    <button variant='primary' onClick={(e) => handleShow(e, project)} >LEARN MORE</button>
+                  </div>
                 </div>
-              </div>
-            </Flip>
-          })}
+            })}
+          </ScrollAnimation>
+        </Row>
+
         <Modal
         show={show}
         onHide={handleClose}
@@ -57,7 +68,7 @@ const Portfolio = () => {
             </Button>
           </Modal.Footer>
         </Modal>
-      </div>
+      </Container>
     </div>
 
   )
