@@ -43,6 +43,7 @@
     "react-typist": "^2.0.5",
     "style-loader": "^2.0.0",
     "styled-components": "^5.3.0",
-    "tsparticles": "^1.29.0"
+    "tsparticles": "^1.29.0",
+    "vanta": "^0.5.21"
   }
 }
