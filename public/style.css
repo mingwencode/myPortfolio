@@ -7,6 +7,7 @@
   font-family:'Roboto',sans-serif;
   color:black;
   font-size: 10pt;
+  /* background: linear-gradient(to bottom, #CDCDCD, white) ; */
 }
 
 /* single page */
@@ -67,6 +68,7 @@ a.active {
 #home {
   font-family: 'Lato',sans-serif;
   font-weight: 700;
+  /* clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%); */
 
 }
 #home span {
@@ -107,10 +109,15 @@ a.active {
   font-size: 8em;
 }
 
+#about {
+  background-color: #EDDBCD;
+  clip-path: polygon(0 0%, 100% 0%, 100% 96%, 0% 100%);
+}
+
 /*portfolio*/
 
 #portfolio {
-  background-color: #EDDBCD;
+  /* background-color: #EDDBCD; */
   clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
 }
 
@@ -121,8 +128,8 @@ a.active {
 
 .project-card {
   /* max-height: 300px; */
-  width: 300px;
-  height: 200px;
+  width: 350px;
+  height: 250px;
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   position: relative;
   transition: all .2s ease-in;
@@ -170,4 +177,9 @@ a.active {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   filter: invert(100%);
+}
+
+#contact {
+  background-color: #EDDBCD;
+  clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
 }

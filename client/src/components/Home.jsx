@@ -3,6 +3,7 @@ import Typist from 'react-typist';
 import { Link } from 'react-scroll';
 import Flip from 'react-reveal/Flip';
 import styled from 'styled-components';
+import ParticlesBg from 'particles-bg';
 
 const NameDisplay = styled.span`
   color: #C06014;
@@ -21,6 +22,7 @@ const IntroContainer = styled.div`
 const Home = () => {
 
   const [showButton, setShowButton] = useState(false)
+
   const handleClick = (e) => {
     console.log('clicked')
   }
@@ -47,6 +49,7 @@ const Home = () => {
         </Intro>
         {showButton ? <Link activeClass='active' to='portfolio' spy={true} smooth={true} duration={250} offset={1}><Flip left><button className='btnHome'>View my work</button></Flip></Link> : null}
       </IntroContainer>
+      <ParticlesBg color={['#EDDBCD','#CDCDCD']} num={10} type='circle' bg={true} />
 
     </div>
   )
