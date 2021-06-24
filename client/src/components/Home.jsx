@@ -49,6 +49,7 @@ const Home = () => {
         </Intro>
         {showButton ? <Link activeClass='active' to='portfolio' spy={true} smooth={true} duration={250} offset={1}><Flip left><button className='btnHome'>View my work</button></Flip></Link> : null}
       </IntroContainer>
+
       <ParticlesBg color={['#EDDBCD','#CDCDCD']} num={10} type='circle' bg={true} />
 
     </div>

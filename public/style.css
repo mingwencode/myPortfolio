@@ -20,9 +20,20 @@
   text-align: center;
 }
 
-.content-container {
-  padding: 5%;
+.inner-text-about {
+  font-size: 2em;
 }
+
+.content-container {
+  padding: 4.5%;
+  max-width: 1300px;
+}
+
+/* @media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1300px;
+}} */
+
 /* Nav-bar */
 .nav-bar-container {
   margin-top: auto;
@@ -146,7 +157,7 @@ a.active {
 
 .project-card:hover .overlay {
   opacity: 1;
-  background-color: #C06014;
+  background-color: #EDDBCD;
 }
 
 .overlay {
