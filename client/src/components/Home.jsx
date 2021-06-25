@@ -17,7 +17,7 @@ const Intro = styled.div`
 
 const IntroContainer = styled.div`
   width: 50%;
-  margin: auto;
+  margin-left: 10%;
   padding-top: 17%;
 `;
 
@@ -29,23 +29,23 @@ const Home = () => {
 
   useEffect(() => {
     if (!vantaEffect) {
-      // setVantaEffect(GLOBE({
-      //   el: myRef.current,
-      //   mouseControls: true,
-      //   touchControls: true,
-      //   gyroControls: false,
-      //   minHeight: 200.00,
-      //   minWidth: 200.00,
-      //   scale: 1.00,
-      //   scaleMobile: 1.00,
-      //   color: 0xc06014,
-      //   color2: 0x0,
-      //   backgroundColor: 0xf4f4f4
-      // }))
-      setVantaEffect(BIRDS({
+      setVantaEffect(GLOBE({
         el: myRef.current,
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0xc06014,
+        color2: 0x0,
         backgroundColor: 0xf4f4f4
       }))
+      // setVantaEffect(BIRDS({
+      //   el: myRef.current,
+      //   backgroundColor: 0xf4f4f4
+      // }))
     }
     return () => {
       if (vantaEffect) vantaEffect.destroy()

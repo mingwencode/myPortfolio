@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ScrollAnimation from 'react-animate-on-scroll';
+import styled from 'styled-components';
 
 const Contact = () => {
   return (
@@ -11,7 +12,7 @@ const Contact = () => {
         <Row className='justify-content-md-center'>
           <Col className='page-title'>
           <ScrollAnimation animateIn='bounceInLeft'>
-            Get In Touch
+            GET IN TOUCH
           </ScrollAnimation>
         </Col>
         </Row>
@@ -34,6 +35,11 @@ const Contact = () => {
           </Col>
         </Row>
       </Container>
+      <ScrollAnimation animateIn='fadeIn'>
+        <footer>
+          <div>Designed & Built by Ming Wen &#169; 2021</div>
+        </footer>
+      </ScrollAnimation>
     </div>
   )
 };

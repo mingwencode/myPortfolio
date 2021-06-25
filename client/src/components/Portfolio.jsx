@@ -26,7 +26,7 @@ const Portfolio = () => {
       <Container fluid className='content-container'>
         <Row>
           <Col className='page-title'>
-              <ScrollAnimation animateIn='bounceInRight'>Portfolio</ScrollAnimation>
+              <ScrollAnimation animateIn='bounceInRight'>PORTFOLIO</ScrollAnimation>
           </Col>
         </Row>
         <Row>

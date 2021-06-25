@@ -11,7 +11,7 @@ const About = () => {
         <Row>
           <Col className='page-title'>
           <ScrollAnimation animateIn='bounceInLeft'>
-            About
+            ABOUT
           </ScrollAnimation>
           </Col>
         </Row>
