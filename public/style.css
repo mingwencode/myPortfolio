@@ -20,6 +20,7 @@
 .inner-text {
   font-size: 2em;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .inner-text-about {
@@ -98,10 +99,6 @@ a.active {
   display: inline;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
-}
-
-.sendMsg {
-  background-color: rgba(244, 244, 244, 0.4);
 }
 
 .btnHome:hover {
@@ -266,4 +263,26 @@ footer {
   font-family: 'Roboto Mono', monospace;
   font-weight: 300;
   /* clip-path: polygon(50% 0%,100% 50%,100% 100%,0% 100%,0% 50%); */
+}
+
+.icon-button {
+  transition: transform 1s;
+}
+.icon-button:hover {
+  transform: rotate(360deg);
+}
+
+.icon-col-1 {
+  display:flex;
+  justify-content: flex-end;
+}
+
+.icon-col-2 {
+  display:flex;
+  justify-content: center;
+}
+
+.icon-col-3 {
+  display:flex;
+  justify-content: flex-start;
 }

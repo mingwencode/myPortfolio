@@ -27,15 +27,15 @@ const Contact = () => {
           </ContactText>
           </Col>
         </Row>
-        <Row>
-          <Col>
-          <div className='media-link btnHome sendMsg' href='mailto:mingwen314@gmail.com' rel='noopener noreferrer' target='_blank'>SEND MESSAGE</div>
+        <Row >
+          <Col className='icon-col-1'>
+            <a className='media-link' href='mailto:mingwen314@gmail.com' rel='noopener noreferrer' target='_blank'><img className=' icon-button' src='../images/mail.png'/></a>
           </Col>
-          <Col>
-            <a className='media-link' href='https://github.com/mingwencode' rel='noopener noreferrer' target='_blank'>GitHub</a>
+          <Col className='icon-col-2'>
+            <a className='media-link' href='https://github.com/mingwencode' rel='noopener noreferrer' target='_blank'><img className=' icon-button' src='../images/github.png'/></a>
           </Col>
-          <Col>
-            <a className='media-link' href='https://www.linkedin.com/in/yimingwen/' rel='noopener noreferrer' target='_blank'>LinkedIn</a>
+          <Col className='icon-col-3'>
+            <a className='media-link' href='https://www.linkedin.com/in/yimingwen/' rel='noopener noreferrer' target='_blank'><img className=' icon-button' src='../images/linkedIn.png'/></a>
           </Col>
         </Row>
       </Container>

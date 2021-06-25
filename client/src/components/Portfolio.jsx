@@ -3,7 +3,6 @@ import PortfolioModal from './PortfolioModal.jsx';
 import projects from '../data/portfolioData.js';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
-import Fade from 'react-reveal/Fade';
 import ScrollAnimation from 'react-animate-on-scroll';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
