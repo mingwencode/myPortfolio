@@ -3,7 +3,6 @@ import Typist from 'react-typist';
 import { Link } from 'react-scroll';
 import Flip from 'react-reveal/Flip';
 import styled from 'styled-components';
-import ParticlesBg from 'particles-bg';
 import BIRDS from 'vanta/dist/vanta.birds.min'
 import GLOBE from 'vanta/dist/vanta.globe.min'
 
@@ -62,29 +61,29 @@ const Home = () => {
 
   return (
     <div ref={myRef}>
-    <div className='single-page' id='home'>
-      <IntroContainer>
-        <Intro>
-          <Typist cursor={{ hideWhenDone: true, hideWhenDoneDelay: 0, }} onTypingDone={() => buttonState()}>
-            <span>Hello, I am </span>
-            <NameDisplay>Ming Wen</NameDisplay>
-            <br />
-            <span>I am a Designer<Typist.Delay ms={500} />
-            <Typist.Backspace count={8} delay={500} />
-            <Typist.Delay ms={300} />
-            Software Engineer
-            <Typist.Delay ms={200} />
-            </span>
-          </Typist>
-        </Intro>
-        {showButton ? <Link activeClass='active' to='portfolio' spy={true} smooth={true} duration={250} offset={1}><Flip left><button className='btnHome'>View my work</button></Flip></Link> : null}
-      </IntroContainer>
+      <div className='single-page' id='home'>
+        <IntroContainer>
+          <Intro>
+            <Typist cursor={{ hideWhenDone: true, hideWhenDoneDelay: 0, }} onTypingDone={() => buttonState()}>
+              <span>Hello, I am </span>
+              <NameDisplay>Ming Wen</NameDisplay>
+              <br />
+              <span>I am a Designer<Typist.Delay ms={500} />
+              <Typist.Backspace count={8} delay={500} />
+              <Typist.Delay ms={300} />
+              Software Engineer
+              <Typist.Delay ms={200} />
+              </span>
+            </Typist>
+          </Intro>
+          {showButton ? <Link activeClass='active' to='portfolio' spy={true} smooth={true} duration={250} offset={1}><Flip left><button className='btnHome'>View my work</button></Flip></Link> : null}
+        </IntroContainer>
 
-      {/* <ParticlesBg color='#EDDBCD' num={8} type='circle' bg={true} /> */}
-      {/* <ParticlesBg color={['#EDDBCD','#CDCDCD']} num={13} type='circle' bg={true} /> */}
-      {/* <ParticlesBg color='#C06014' type='cobweb' num={150} bg={true} /> */}
+        {/* <ParticlesBg color='#EDDBCD' num={8} type='circle' bg={true} /> */}
+        {/* <ParticlesBg color={['#EDDBCD','#CDCDCD']} num={13} type='circle' bg={true} /> */}
+        {/* <ParticlesBg color='#C06014' type='cobweb' num={150} bg={true} /> */}
 
-    </div>
+      </div>
     </div>
   )
 }

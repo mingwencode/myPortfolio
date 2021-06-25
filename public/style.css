@@ -31,11 +31,6 @@
   max-width: 1300px;
 }
 
-/* @media (min-width: 1200px){
-.container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1300px;
-}} */
-
 /* Nav-bar */
 .nav-bar-container {
   margin-top: auto;
@@ -80,6 +75,7 @@ a.active {
 
 /*homepage*/
 #home {
+  height: 99.9vh;
   font-family: 'Lato',sans-serif;
   font-weight: 700;
   /* text-align: center; */
@@ -96,11 +92,16 @@ a.active {
   font-weight: 400;
   font-size: 16pt;
   color:#C06014;
-  background-color: #F4F4F4;
+  background-color: rgba(244, 244, 244, 0.7);
   border: 3px solid black;
   padding: 11px 19px;
   display: inline;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.sendMsg {
+  background-color: rgba(244, 244, 244, 0.4);
 }
 
 .btnHome:hover {
@@ -176,7 +177,6 @@ a.active {
     visibility: none;
     transition: .5s ease;
     background-color: #f5f5f5;
-
 
 }
 
