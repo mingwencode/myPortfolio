@@ -13,14 +13,14 @@ const Contact = () => {
   return (
     <div className='single-page' id='contact'>
       <Container className='content-container'>
-        <Row className='justify-content-md-center'>
+        <Row className='justify-content-center'>
           <Col className='page-title'>
           <ScrollAnimation animateIn='bounceInLeft'>
             GET IN TOUCH
           </ScrollAnimation>
         </Col>
         </Row>
-        <Row className='justify-content-md-center'>
+        <Row className='justify-content-center'>
           <Col xs={7}>
             <ContactText className='inner-text'>
             I am available for hire. If you want to talk to me about an opportunity, a project collaboration or just say Hi, I will get back to to ASAP.
@@ -28,13 +28,13 @@ const Contact = () => {
           </Col>
         </Row>
         <Row >
-          <Col className='icon-col-1'>
+          <Col className='d-flex justify-content-end'>
             <a className='media-link' href='mailto:mingwen314@gmail.com' rel='noopener noreferrer' target='_blank'><img className=' icon-button' src='../images/mail.png'/></a>
           </Col>
-          <Col className='icon-col-2'>
+          <Col className='d-flex justify-content-center'>
             <a className='media-link' href='https://github.com/mingwencode' rel='noopener noreferrer' target='_blank'><img className=' icon-button' src='../images/github.png'/></a>
           </Col>
-          <Col className='icon-col-3'>
+          <Col>
             <a className='media-link' href='https://www.linkedin.com/in/yimingwen/' rel='noopener noreferrer' target='_blank'><img className=' icon-button' src='../images/linkedIn.png'/></a>
           </Col>
         </Row>

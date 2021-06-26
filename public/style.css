@@ -8,6 +8,7 @@
   font-family:'Roboto',sans-serif;
   color:black;
   font-size: 10pt;
+  background-color: #F4F4F4;
   /* background: linear-gradient(to bottom, #CDCDCD, white) ; */
 }
 
@@ -120,6 +121,7 @@ a.active {
   justify-content: center;
   padding: 50px;
   font-size: 8em;
+  text-align: center;
 }
 
 #about {
@@ -131,6 +133,7 @@ a.active {
 
 #portfolio {
   /* background-color: #EDDBCD; */
+  height: 99.9vh;
   clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
 }
 
@@ -272,17 +275,7 @@ footer {
   transform: rotate(360deg);
 }
 
-.icon-col-1 {
-  display:flex;
-  justify-content: flex-end;
-}
-
-.icon-col-2 {
-  display:flex;
-  justify-content: center;
-}
-
-.icon-col-3 {
-  display:flex;
-  justify-content: flex-start;
+.icon-button:active {
+  transition: transform 0.2s;
+  transform: scale(0.8);
 }
