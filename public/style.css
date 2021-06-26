@@ -129,6 +129,10 @@ a.active {
   background-color: #EDDBCD;
   clip-path: polygon(0 0%, 100% 0%, 100% 96%, 0% 100%);
 }
+.profile-pic {
+  box-shadow: -15px -15px rgb(205 205 205);
+}
+
 
 /*portfolio*/
 
