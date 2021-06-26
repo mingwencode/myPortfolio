@@ -3,7 +3,7 @@ const projects = [
     name: 'Triceratops Republic',
     description: 'Triceratop Republic is a single-page e-commerce HTML5 web application designed to showcase clothing products.',
     disPic: '../images/fec/FEC_display.jpeg',
-    tech:'JavaScript/Node/React',
+    tech:'JavaScript | Node | React',
     slides:[
       {
         name:'Full Page',
@@ -35,6 +35,7 @@ const projects = [
     name: 'Smove',
     description: 'Smove is a one-stop-platform for users to manage their move with ease! The application integrates all the pieces of moving including finding vendors, tracking tasks and inventory, and collaborating with family & friends.',
     disPic: '../images/smove/smove_display_sm.jpg',
+    tech:'JavaScript | React | Google API',
     slides:[
       {
         name:'Sign In with Google',
@@ -63,9 +64,10 @@ const projects = [
     ]
   },
   {
-    name: 'Project Catwalk System Design',
+    name: 'Catwalk System Design',
     description: 'The project is a back-end design for a front-end legacy codebase for an e-commerce we application focused on clothing and apparel. ',
     disPic: '../images/sdc/sdc_display_sm.jpg',
+    tech:'PostgreSQL | NginX | AWS',
     slides:[
       {
         name:'Database Schema Design',
@@ -86,6 +88,7 @@ const projects = [
     name: 'handyHelpers',
     description: 'A web application that allows users to ask for help within the local community. Users can post/accpet/track jobs',
     disPic: '../images/handy/handy_display_sm.jpg',
+    tech:'JavaScript | Express| React',
     slides:[
       {
         name:'Login Page',
@@ -105,6 +108,7 @@ const projects = [
     name: 'Virus Invasion',
     description: 'In Virus Invasion, the player controls a doctor to shoot bullet to destroy all the virus.',
     disPic: '../images/shooter/shooter_display_sm.jpg',
+    tech:'Python | Pygame',
     slides:[
       {
         name:'Game Play',

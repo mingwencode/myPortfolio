@@ -35,12 +35,13 @@ const Portfolio = () => {
                 return <div className='project-card'>
                     <img className='project-display-pic' src={project.disPic} key={index}/>
                     <div className='overlay'>
-                      <div className='overlay-text'>{project.name}
+                      <div className='overlay-text'>
+                        <div>{project.name}</div>
                         <div>{project.tech}</div>
+                        <button
+                        className='btn-more'
+                        variant='primary' onClick={(e) => handleShow(e, project)} >LEARN MORE</button>
                       </div>
-                      <button
-                      className='btn-more'
-                      variant='primary' onClick={(e) => handleShow(e, project)} >LEARN MORE</button>
                     </div>
                   </div>
               })}

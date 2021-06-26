@@ -100,6 +100,7 @@ a.active {
   display: inline;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .btnHome:hover {
@@ -150,7 +151,7 @@ a.active {
   position: relative;
   transition: all .2s ease-in;
   display:inline-block;
-  margin: 20px;
+  margin: 30px;
 }
 
 .project-display-pic {
@@ -182,25 +183,27 @@ a.active {
 
 .overlay-text {
   position: absolute;
+  width: 100%;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  color: #C06014;
 }
 
 .overlay-text div {
-  font-size: 16pt;
-  font-weight: 700;
+  font-size: 20pt;
 }
 
 .overlay-text div:nth-child(2) {
   display: inline-block;
-  font-size: 12pt;
+  font-size: 14pt;
   line-height: 18pt;
-  color: #C06014;
-  padding-bottom: 90px;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 80px;
 }
 
 .btn-more {
@@ -221,6 +224,7 @@ a.active {
   display: inline;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .btn-more:hover {
