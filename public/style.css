@@ -139,7 +139,7 @@ a.active {
 #portfolio {
   /* background-color: #EDDBCD; */
   height: 99.9vh;
-  clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+
 }
 
 .project-container {
@@ -258,6 +258,7 @@ a.active {
 
 #contact {
   background-color: #EDDBCD;
+  clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
 
 }
 
