@@ -29,13 +29,19 @@ const Contact = () => {
         </Row>
         <Row >
           <Col className='d-flex justify-content-end'>
-            <a className='media-link' href='mailto:mingwen314@gmail.com' rel='noopener noreferrer' target='_blank'><img className=' icon-button' src='../images/mail.png'/></a>
+            <ScrollAnimation animateIn='flipInY' delay={700}>
+                <a className='media-link' href='mailto:mingwen314@gmail.com' rel='noopener noreferrer' target='_blank'><img className=' icon-button' src='../images/mail.png'/></a>
+            </ScrollAnimation>
           </Col>
           <Col className='d-flex justify-content-center'>
-            <a className='media-link' href='https://github.com/mingwencode' rel='noopener noreferrer' target='_blank'><img className=' icon-button' src='../images/github.png'/></a>
+            <ScrollAnimation animateIn='flipInY' delay={800}>
+              <a className='media-link' href='https://github.com/mingwencode' rel='noopener noreferrer' target='_blank'><img className=' icon-button' src='../images/github.png'/></a>
+            </ScrollAnimation>
           </Col>
-          <Col>
-            <a className='media-link' href='https://www.linkedin.com/in/yimingwen/' rel='noopener noreferrer' target='_blank'><img className=' icon-button' src='../images/linkedIn.png'/></a>
+          <Col className='d-flex justify-content-start'>
+            <ScrollAnimation animateIn='flipInY' delay={900}>
+              <a className='media-link' href='https://www.linkedin.com/in/yimingwen/' rel='noopener noreferrer' target='_blank'><img className=' icon-button' src='../images/linkedIn.png'/></a>
+            </ScrollAnimation>
           </Col>
         </Row>
       </Container>
