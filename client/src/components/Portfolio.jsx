@@ -7,6 +7,19 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import styled from 'styled-components';
+
+const ModalTitle = styled.p`
+  color: #C06014;
+  font-size: 20pt;
+  margin: auto;
+`;
+
+const ModalText = styled.p`
+  font-size: 14pt;
+  margin: auto;
+`;
+
 
 const Portfolio = () => {
 
@@ -59,10 +72,10 @@ const Portfolio = () => {
         centered
         >
           <Modal.Header closeButton>
-            <Modal.Title>{currentProject.name}</Modal.Title>
+            <Modal.Title><ModalTitle>{currentProject.name}</ModalTitle></Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <p>{currentProject.description}</p>
+            <ModalText>{currentProject.description}</ModalText>
           </Modal.Body>
           <Modal.Body>
             <PortfolioModal currentProject={currentProject}/>
