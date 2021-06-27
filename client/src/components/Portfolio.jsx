@@ -41,11 +41,12 @@ const Portfolio = () => {
               <ScrollAnimation animateIn='bounceInRight'>PORTFOLIO</ScrollAnimation>
           </Col>
         </Row>
+        <ScrollAnimation animateIn='bounceInLeft'>
         <Row>
-          <Col className='project-container'>
-            <ScrollAnimation animateIn='bounceInLeft'>
+
+
               {projects.map((project,index) => {
-                return <div className='project-card'>
+                return <Col className='project-container'><div className='project-card'>
                     <img className='project-display-pic' src={project.disPic} key={index}/>
                     <div className='overlay'>
                       <div className='overlay-text'>
@@ -56,11 +57,11 @@ const Portfolio = () => {
                         variant='primary' onClick={(e) => handleShow(e, project)} >LEARN MORE</button>
                       </div>
                     </div>
-                  </div>
+                  </div></Col>
               })}
-            </ScrollAnimation>
-          </Col>
+
         </Row>
+        </ScrollAnimation>
 
         <Modal
         show={show}

@@ -23,7 +23,7 @@ const Contact = () => {
         <Row className='justify-content-center'>
           <Col xs={7}>
             <ContactText className='inner-text'>
-            I am available for hire. If you want to talk to me about an opportunity, a project collaboration or just say Hi, I will get back to to ASAP.
+            I am available for hire. <br/>If you want to discuss about an opportunity, a project collaboration or just say Hi,<br/>I will get back to to ASAP.
           </ContactText>
           </Col>
         </Row>

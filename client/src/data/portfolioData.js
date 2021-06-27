@@ -122,7 +122,26 @@ const projects = [
         name:'Game Over',
         pic: '../images/shooter/end.png'
       }]
-    }
+    },
+    {
+      name: 'More Projects',
+      description: 'I am working everyday to polish my skills',
+      disPic: '../images/shooter/shooter_display_sm.jpg',
+      tech:'JavaScript | TypeScript | Python',
+      slides:[
+        {
+          name:'Game Play',
+          pic: '../images/shooter/virus.gif'
+        },
+        {
+          name:'Starting the game',
+          pic: '../images/shooter/start.png'
+        },
+        {
+          name:'Game Over',
+          pic: '../images/shooter/end.png'
+        }]
+      }
 ]
 
 export default projects;

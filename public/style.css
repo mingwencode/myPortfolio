@@ -30,7 +30,7 @@
 
 .content-container {
   padding: 4.5%;
-  max-width: 1300px;
+  max-width: 1500px;
 }
 
 /* Nav-bar */
@@ -130,9 +130,34 @@ a.active {
   clip-path: polygon(0 0%, 100% 0%, 100% 96%, 0% 100%);
 }
 .profile-pic {
-  box-shadow: -15px -15px rgb(205 205 205);
+  position: relative;
+  /* box-shadow: -15px -15px rgb(205 205 205); */
 }
 
+.profile-pic:hover {
+  position: relative;
+  content: url('../images/profile_pic_c.png')
+  /* box-shadow: -15px -15px rgb(205 205 205); */
+}
+
+.about-tech-text {
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+}
+
+.about-tech-text ul {
+  list-style: none;
+}
+
+.about-tech-text ul li::before {
+  content: "\2023";
+  color: #C06014;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
 
 /*portfolio*/
 
@@ -155,7 +180,7 @@ a.active {
   position: relative;
   transition: all .2s ease-in;
   display:inline-block;
-  margin: 0 30px 30px 30px;
+  margin: 0 0px 50px 0px; */
 }
 
 .project-display-pic {
@@ -167,7 +192,11 @@ a.active {
 
 .project-card:hover .overlay {
   opacity: 1;
-  background-color: #EDDBCD;
+  background-color: #F4F4F4;
+}
+
+.project-card:hover {
+  box-shadow: none !important;
 }
 
 .overlay {
