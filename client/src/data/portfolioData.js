@@ -125,21 +125,21 @@ const projects = [
     },
     {
       name: 'More Projects',
-      description: 'I am working everyday to polish my skills',
-      disPic: '../images/shooter/shooter_display_sm.jpg',
+      description: 'I am working everyday to polish my skills. Here are some of the mini projects',
+      disPic: '../images/moreProject.jpg',
       tech:'JavaScript | TypeScript | Python',
       slides:[
         {
-          name:'Game Play',
-          pic: '../images/shooter/virus.gif'
+          name:'Single page application - Typing Speed Test',
+          pic: '../images/typingTester.png'
         },
         {
-          name:'Starting the game',
-          pic: '../images/shooter/start.png'
+          name:'HTML/CSS Resume page',
+          pic: '../images/css-portfolio.png'
         },
         {
-          name:'Game Over',
-          pic: '../images/shooter/end.png'
+          name:'Analog Clock',
+          pic: '../images/clock.png'
         }]
       }
 ]
