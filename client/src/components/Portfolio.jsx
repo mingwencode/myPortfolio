@@ -29,7 +29,6 @@ const Back = styled.div`
   clip-path: polygon(0% 0%,0% 100%,100% 50%);
 `;
 
-
 const Portfolio = () => {
 
 
