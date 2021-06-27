@@ -9,6 +9,7 @@ const ContactText = styled.p`
   padding-bottom: 40px;
 `;
 
+
 const Contact = () => {
   return (
     <div className='single-page' id='contact'>

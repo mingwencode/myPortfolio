@@ -20,6 +20,15 @@ const ModalText = styled.p`
   margin: auto;
 `;
 
+const Back = styled.div`
+  opacity: 0.3;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #CDCDCD;
+  clip-path: polygon(0% 0%,0% 100%,100% 50%);
+`;
+
 
 const Portfolio = () => {
 
@@ -35,6 +44,7 @@ const Portfolio = () => {
 
   return (
     <div className='single-page' id='portfolio'>
+       <Back className='back-patten'></Back>
       <Container fluid className='content-container'>
         <Row>
           <Col className='page-title'>
