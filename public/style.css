@@ -7,7 +7,7 @@
 #app {
   font-family:'Roboto',sans-serif;
   color:black;
-  font-size: 10pt;
+  font-size: 8pt;/*10*/
   background-color: #F4F4F4;
   /* background: linear-gradient(to bottom, #CDCDCD, white) ; */
 }
@@ -19,18 +19,20 @@
 }
 
 .inner-text {
-  font-size: 20pt;
+  font-size: 15pt; /*20*/
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 38px; /*50*/
 }
 
 .inner-text-about {
-  font-size: 20pt;
+  font-size: 15pt; /*20*/
+  margin-bottom: 10px;
+
 }
 
 .content-container {
   padding-top: 6%;
-  max-width: 1500px;
+  max-width: 1125px;/*1500*/
 }
 
 /* Nav-bar */
@@ -38,16 +40,16 @@
   margin-top: auto;
   position: fixed;
   width: 100%;
-  height: 80px;
-  padding: 0 100px;
+  height: 60px; /*80*/
+  padding: 0 75px; /*100*/
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #C06014;
   color: white;
-  font-size: 25px;
+  font-size: 18px; /*25*/
   z-index: 2;
-  box-shadow: 0 4px 5px rgba(0,0,0,0.30);
+  box-shadow: 0 3px 4px rgba(0,0,0,0.30); /*4, 5*/
 }
 
 a.active {
@@ -71,7 +73,7 @@ a.active {
 
 .nav-bar li {
   position: relative;
-  padding: 5px 50px;
+  padding: 4px 38px; /*5px 50px;  */
   cursor: pointer;
 }
 
@@ -92,15 +94,15 @@ a.active {
   box-sizing: inherit;
   font-family: 'Roboto', serif;
   font-weight: 400;
-  font-size: 16pt;
+  font-size: 12pt; /*16*/
   color:#C06014;
   background-color: rgba(244, 244, 244, 0.7);
-  border: 3px solid black;
-  padding: 11px 19px;
+  border: 2px solid black; /*3*/
+  padding: 8px 14px; /* 11, 19*/
   display: inline;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 4px; /*5*/
 }
 
 .btnHome:hover {
@@ -120,8 +122,8 @@ a.active {
   font-weight: 700;
   display: flex;
   justify-content: center;
-  padding: 30px;
-  font-size: 70pt;
+  padding: 20px; /*30*/
+  font-size: 52pt; /*70*/
   text-align: center;
 }
 
@@ -141,7 +143,7 @@ a.active {
 }
 
 .about-tech-text {
-  font-size: 20px;
+  font-size: 15px; /*20*/
   font-family: 'Roboto Mono', monospace;
   font-weight: 300;
 }
@@ -174,13 +176,13 @@ a.active {
 
 .project-card {
   /* max-height: 300px; */
-  width: 350px;
-  height: 250px;
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  width: 260px; /*350*/
+  height: 185px; /*250*/
+  box-shadow: 0 15px 28px rgba(0,0,0,0.30), 0 10px 8px rgba(0,0,0,0.22); /*19 38 15 12*/
   position: relative;
   transition: all .2s ease-in;
   display:inline-block;
-  margin: 0 0px 70px 0px;
+  margin: 0 0px 52px 0px; /*70*/
 }
 
 .project-display-pic {
@@ -236,16 +238,16 @@ a.active {
 }
 
 .overlay-text div {
-  font-size: 20pt;
+  font-size: 15pt; /*20*/
 }
 
 .overlay-text div:nth-child(2) {
   display: inline-block;
-  font-size: 14pt;
-  line-height: 18pt;
+  font-size: 10pt; /*14*/
+  line-height: 13pt; /*18*/
   color: black;
-  padding-top: 20px;
-  padding-bottom: 80px;
+  padding-top: 15px; /*20*/
+  padding-bottom: 60px; /*80*/
 }
 
 .btn-more {
@@ -255,18 +257,18 @@ a.active {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, 0);
-  padding: 10px 20px;
+  padding: 8px 15px; /*10 20*/
   box-sizing: inherit;
-  font-size: 12pt;
+  font-size: 8pt; /*12*/
   font-weight: 600;
   border: 1px solid #C06014;
   color: #444649;
   background-color: transparent;
-  width: 170px;
+  width: 128px; /*170*/
   display: inline;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 4px; /*5*/
 }
 
 .btn-more:hover {
@@ -280,11 +282,11 @@ a.active {
   outline: none;
 }
 .card-container {
-  height: 650px;
+  height: 485px; /*650*/
 }
 
 .caption {
-  font-size: 15pt;
+  font-size: 11pt; /*15*/
   background-color: rgba(0,0,0,0.7);
   width: 100;
 }
@@ -301,7 +303,7 @@ a.active {
 }
 
 footer {
-  padding:30px 0;
+  padding:22px 0; /*30*/
   background-color:#ffffff;
   color:white;
   background-color: #583E23;
@@ -309,7 +311,7 @@ footer {
   width: 100%;
   text-align: center;
   bottom: 0;
-  font-size: 18px;
+  font-size: 13px; /*18*/
   font-family: 'Roboto Mono', monospace;
   font-weight: 300;
   /* clip-path: polygon(50% 0%,100% 50%,100% 100%,0% 100%,0% 50%); */
@@ -328,10 +330,10 @@ footer {
 }
 
 
-.back {
+/* .back {
   position: absolute;
   width : 600px;
   height: 400px;
   background-color: green;
 
-}
+} */

@@ -22,7 +22,7 @@ const About = () => {
         <Row>
           <Col className='d-flex justify-content-center' md={5}>
             <ScrollAnimation animateIn='fadeIn' delay={100}>
-              <img className='profile-pic' src={'../images/profile_pic.png'} width="600" />
+              <img className='profile-pic' src={'../images/profile_pic.png'} width="450px" />
             </ScrollAnimation>
           </Col>
           <Col>
