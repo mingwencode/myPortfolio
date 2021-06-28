@@ -6,7 +6,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import styled from 'styled-components';
 
 const ContactText = styled.p`
-  padding-bottom: 60px;
+  padding-bottom: 45px;
 `;
 
 

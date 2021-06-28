@@ -11,7 +11,7 @@ const NameDisplay = styled.span`
 `;
 
 const Intro = styled.div`
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 `;
 
 const IntroContainer = styled.div`

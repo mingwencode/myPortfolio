@@ -337,3 +337,8 @@ footer {
   background-color: green;
 
 } */
+
+.my-modal {
+  width: 50vw !important;   /* Occupy the 90% of the screen width */
+  max-width: 90vw !important; ;
+}

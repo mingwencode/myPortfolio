@@ -11,12 +11,12 @@ import styled from 'styled-components';
 
 const ModalTitle = styled.p`
   color: #C06014;
-  font-size: 20pt;
+  font-size: 15pt;
   margin: auto;
 `;
 
 const ModalText = styled.p`
-  font-size: 14pt;
+  font-size: 10pt;
   margin: auto;
 `;
 
@@ -74,7 +74,8 @@ const Portfolio = () => {
         onHide={handleClose}
         backdrop="static"
         keyboard={false}
-        size="xl"
+        // size="xl"
+        dialogClassName="my-modal"
         aria-labelledby="contained-modal-title-vcenter"
         centered
         >
