@@ -172,6 +172,7 @@ a.active {
 .project-container {
   display: flex;
   justify-content: center;
+  /* position: absolute; */
 }
 
 .project-card {
