@@ -10,6 +10,7 @@ const ContactText = styled.p`
 `;
 
 
+
 const Contact = () => {
   return (
     <div className='single-page' id='contact'>

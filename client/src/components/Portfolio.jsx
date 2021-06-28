@@ -26,7 +26,7 @@ const Back = styled.div`
   width: 100vw;
   height: 100vh;
   background-color: #CDCDCD;
-  clip-path: polygon(0% 0%,0% 100%,100% 50%);
+  clip-path: polygon(0% 0%,0% 100%,100% 100%);
 `;
 
 const Portfolio = () => {

@@ -298,8 +298,8 @@ a.active {
 }
 
 #contact {
-  background-color: #EDDBCD;
-  clip-path: polygon(0 0%, 100% 4%, 100% 100%, 0% 100%);
+  background-color: #FAE9E1;
+  clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
 
 }
 

@@ -15,9 +15,20 @@ const ResumeBtn = styled.a`
   }
 `;
 
+const Back = styled.div`
+  opacity: 0.2;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  clip-path: polygon(0% 0%,100% 0%,100% 100%);
+
+`;
+
 const About = () => {
   return (
     <div className='single-page' id='about'>
+       <Back className='back-patten'></Back>
       <Container className='content-container' fluid>
         <Row>
           <Col className='d-flex justify-content-center' md={5}>
