@@ -106,3 +106,4 @@ dist
 bundle.js
 bundle.js.map
 package-lock.json
+FEC.pem
