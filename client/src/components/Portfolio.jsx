@@ -52,23 +52,20 @@ const Portfolio = () => {
         </Row>
         <ScrollAnimation animateIn='bounceInLeft'>
         <Row>
-
-
-              {projects.map((project,index) => {
-                return <Col className='project-container'><div className='project-card'>
-                    <img className='project-display-pic' src={project.disPic} key={index}/>
-                    <div className='overlay'>
-                      <div className='overlay-text'>
-                        <div>{project.name}</div>
-                        <div>{project.tech}</div>
-                        <button
-                        className='btn-more'
-                        variant='primary' onClick={(e) => handleShow(e, project)} >LEARN MORE</button>
-                      </div>
-                    </div>
-                  </div></Col>
-              })}
-
+          {projects.map((project,index) => {
+            return <Col className='project-container'><div className='project-card'>
+                <img className='project-display-pic' src={project.disPic} key={index}/>
+                <div className='overlay'>
+                  <div className='overlay-text'>
+                    <div>{project.name}</div>
+                    <div>{project.tech}</div>
+                    <button
+                    className='btn-more'
+                    variant='primary' onClick={(e) => handleShow(e, project)} >LEARN MORE</button>
+                  </div>
+                </div>
+              </div></Col>
+          })}
         </Row>
         </ScrollAnimation>
 
