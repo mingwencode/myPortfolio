@@ -29,6 +29,14 @@ const Back = styled.div`
   clip-path: polygon(0% 0%,0% 100%,100% 100%);
 `;
 
+const TitleText = styled.div`
+  color: #C06014;
+  padding-top: 8px;
+  font-size: 15pt;
+  font-family: 'Lato',sans-serif;
+  font-weight: 400;
+`;
+
 const Portfolio = () => {
 
 
@@ -58,12 +66,14 @@ const Portfolio = () => {
                 <div className='overlay'>
                   <div className='overlay-text'>
                     <div>{project.name}</div>
+                    <div>{project.sum}</div>
                     <div>{project.tech}</div>
                     <button
                     className='btn-more'
                     variant='primary' onClick={(e) => handleShow(e, project)} >LEARN MORE</button>
                   </div>
                 </div>
+                <TitleText className='titleText'>{project.name}</TitleText>
               </div></Col>
           })}
         </Row>

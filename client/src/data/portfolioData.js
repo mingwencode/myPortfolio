@@ -1,8 +1,9 @@
 const projects = [
   {
     name: 'Triceratops Republic',
+    sum: 'A single-page e-commerce web application',
     description: 'Triceratops Republic is a single-page e-commerce HTML5 web application designed to showcase clothing products.',
-    disPic: '../images/fec/FEC_display.jpeg',
+    disPic: '../images/fec/FEC_display_bw.jpg',
     tech:'JavaScript | Node | React',
     slides:[
       {
@@ -33,8 +34,9 @@ const projects = [
   },
   {
     name: 'Smove',
+    sum: 'The one-stop-platform for users to manage their move',
     description: 'Smove is a one-stop-platform for users to manage their move with ease! The application integrates all the pieces of moving including finding vendors, tracking tasks and inventory, and collaborating with family & friends.',
-    disPic: '../images/smove/smove_display_sm.jpg',
+    disPic: '../images/smove/smove_display_sm_bw.jpg',
     tech:'JavaScript | React | Google API',
     slides:[
       {
@@ -65,8 +67,9 @@ const projects = [
   },
   {
     name: 'Catwalk System Design',
+    sum: 'A back-end system for a legacy website',
     description: 'The project is a back-end design for a front-end legacy codebase for an e-commerce we application focused on clothing and apparel. ',
-    disPic: '../images/sdc/sdc_display_sm.jpg',
+    disPic: '../images/sdc/sdc_display_sm_bw.jpg',
     tech:'PostgreSQL | NginX | AWS',
     slides:[
       {
@@ -86,8 +89,9 @@ const projects = [
 
   {
     name: 'handyHelpers',
+    sum: 'A web application to help your neighbors',
     description: 'A web application that allows users to ask for help within the local community. Users can post/accpet/track jobs',
-    disPic: '../images/handy/handy_display_sm.jpg',
+    disPic: '../images/handy/handy_display_sm_bw.jpg',
     tech:'JavaScript | Express| React',
     slides:[
       {
@@ -106,8 +110,9 @@ const projects = [
   },
   {
     name: 'Virus Invasion',
+    sum: 'A mini shooting game',
     description: 'In Virus Invasion, the player controls a doctor to shoot bullet to destroy all the virus.',
-    disPic: '../images/shooter/shooter_display_sm.jpg',
+    disPic: '../images/shooter/shooter_display_sm_bw.jpg',
     tech:'Python | Pygame',
     slides:[
       {
@@ -125,8 +130,9 @@ const projects = [
     },
     {
       name: 'More Projects',
+      sum: 'Other mini projects',
       description: 'I am working everyday to polish my skills. Here are some of the mini projects',
-      disPic: '../images/moreProject.jpg',
+      disPic: '../images/moreProject_bw.jpg',
       tech:'JavaScript | TypeScript | Python',
       slides:[
         {
