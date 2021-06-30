@@ -9,6 +9,13 @@ const ContactText = styled.p`
   padding-bottom: 45px;
 `;
 
+const IconText = styled.div`
+  text-align: center;
+  font-size: 10pt;
+  font-weight:bold;
+  font-family: 'Roboto Mono', monospace;
+`;
+
 
 
 const Contact = () => {
@@ -33,16 +40,19 @@ const Contact = () => {
           <Col className='d-flex justify-content-end'>
             <ScrollAnimation animateIn='flipInY' delay={700}>
                 <a className='media-link' href='mailto:mingwen314@gmail.com' rel='noopener noreferrer' target='_blank'><img className=' icon-button' src='../images/mail.png'/></a>
+                <IconText>MESSAGE</IconText>
             </ScrollAnimation>
           </Col>
           <Col className='d-flex justify-content-center'>
             <ScrollAnimation animateIn='flipInY' delay={800}>
               <a className='media-link' href='https://github.com/mingwencode' rel='noopener noreferrer' target='_blank'><img className=' icon-button' src='../images/github.png'/></a>
+              <IconText>CODE</IconText>
             </ScrollAnimation>
           </Col>
           <Col className='d-flex justify-content-start'>
             <ScrollAnimation animateIn='flipInY' delay={900}>
               <a className='media-link' href='https://www.linkedin.com/in/yimingwen/' rel='noopener noreferrer' target='_blank'><img className=' icon-button' src='../images/linkedIn.png'/></a>
+              <IconText>CONNECT</IconText>
             </ScrollAnimation>
           </Col>
         </Row>
