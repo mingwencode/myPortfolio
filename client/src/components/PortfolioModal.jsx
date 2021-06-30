@@ -21,11 +21,8 @@ const PortfolioModal = ({currentProject}) => {
               />
               <Carousel.Caption className='caption'>
                 <p>{item.name}</p>
-                {/* <p className='card-info'>{item.info}</p> */}
               </Carousel.Caption>
            </div>
-
-
           </Carousel.Item>
         })}
       </Carousel>

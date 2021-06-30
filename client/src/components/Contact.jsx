@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -15,8 +15,6 @@ const IconText = styled.div`
   font-weight:bold;
   font-family: 'Roboto Mono', monospace;
 `;
-
-
 
 const Contact = () => {
   return (

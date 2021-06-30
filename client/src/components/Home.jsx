@@ -3,7 +3,6 @@ import Typist from 'react-typist';
 import { Link } from 'react-scroll';
 import Flip from 'react-reveal/Flip';
 import styled from 'styled-components';
-import BIRDS from 'vanta/dist/vanta.birds.min'
 import GLOBE from 'vanta/dist/vanta.globe.min'
 
 const NameDisplay = styled.span`
@@ -41,10 +40,6 @@ const Home = () => {
         color2: 0x0,
         backgroundColor: 0xf4f4f4
       }))
-      // setVantaEffect(BIRDS({
-      //   el: myRef.current,
-      //   backgroundColor: 0xf4f4f4
-      // }))
     }
     return () => {
       if (vantaEffect) vantaEffect.destroy()
