@@ -30,7 +30,7 @@ const Back = styled.div`
 `;
 
 const TitleText = styled.div`
-  color: #C06014;
+  color: black;
   padding-top: 8px;
   font-size: 15pt;
   font-family: 'Lato',sans-serif;

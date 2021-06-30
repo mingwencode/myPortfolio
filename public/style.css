@@ -14,7 +14,8 @@
 
 /* single page */
 .single-page {
-  height: 100vh;
+  /* height: 100vh; */
+  /* height: 100%; */
   position: relative;
 }
 
@@ -34,7 +35,8 @@
   padding-top: 6%;
   max-width: 1125px;/*1500*/
   /* position: absolute; */
-  /* height: 10%; */
+  /* padding-bottom: 3%; */
+  padding-bottom: 40px;
 }
 
 /* Nav-bar */
@@ -167,7 +169,7 @@ a.active {
 
 #portfolio {
   /* background-color: #EDDBCD; */
-  height: 99.9vh;
+  /* height: 99.9vh; */
 
 }
 
@@ -318,6 +320,7 @@ a.active {
 }
 
 #contact {
+  height:100vh;
   background-color: #FAE9E1;
   clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
 
