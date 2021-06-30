@@ -273,6 +273,7 @@ a.active {
 }
 
 .overlay-text div:nth-child(2) {
+  width: 100%;
   display: inline-block;
   font-size: 10pt; /*14*/
   line-height: 13pt; /*18*/
