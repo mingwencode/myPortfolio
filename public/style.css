@@ -382,6 +382,6 @@ footer {
 } */
 
 .my-modal {
-  width: 50vw !important;   /* Occupy the 90% of the screen width */
+  width: 80vw !important;   /* Occupy the 90% of the screen width */
   max-width: 90vw !important; ;
 }

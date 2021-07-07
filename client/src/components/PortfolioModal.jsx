@@ -16,8 +16,9 @@ const PortfolioModal = ({currentProject}) => {
          return  <Carousel.Item key={index} interval={10000}>
            <div className='card-container'>
             <img
-                className="d-block w-100"
+                className="d-block m-auto"
                 src={item.pic}
+                height="80%"
               />
               <Carousel.Caption className='caption'>
                 <p>{item.name}</p>

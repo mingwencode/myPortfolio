@@ -56,7 +56,7 @@ const projects = [
         pic: '../images/smove/calendar.png'
       },
       {
-        name:'Inventoryinven',
+        name:'Inventory',
         pic: '../images/smove/inven.png'
       },
       {
@@ -109,23 +109,23 @@ const projects = [
     ]
   },
   {
-    name: 'Virus Invasion',
-    sum: 'A mini shooting game',
-    description: 'In Virus Invasion, the player controls a doctor to shoot bullet to destroy all the virus.',
-    disPic: '../images/shooter/shooter_display_sm_bw.jpg',
-    tech:'Python | Pygame',
+    name: 'Who am I?',
+    sum: 'A mini hidden picture game on mobile',
+    description: 'In the game, the image was covered by a 4 X 5 grid with only one tile uncovered. The player then guesses what the character is from covered images.',
+    disPic: '../images/guess/guess_display_sm_bw.jpg',
+    tech:'JavaScript | React Native',
     slides:[
       {
-        name:'Game Play',
-        pic: '../images/shooter/virus.gif'
-      },
-      {
         name:'Starting the game',
-        pic: '../images/shooter/start.png'
+        pic: '../images/guess/guesssm_1.gif'
       },
       {
-        name:'Game Over',
-        pic: '../images/shooter/end.png'
+        name:'Game play',
+        pic: '../images/guess/guesssm_2.gif'
+      },
+      {
+        name:'Game Over Screen',
+        pic: '../images/guess/guesssm_3.gif'
       }]
     },
     {
@@ -135,6 +135,10 @@ const projects = [
       disPic: '../images/moreProject_bw.jpg',
       tech:'JavaScript | TypeScript | Python',
       slides:[
+        {
+          name: 'Virus Invasion created with Python and PyGame',
+          pic: '../images/virus.gif'
+        },
         {
           name:'Single page application - Typing Speed Test',
           pic: '../images/typingTester.png'
